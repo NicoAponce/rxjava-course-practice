@@ -1,0 +1,25 @@
+package pe.curso.appwebflux.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import pe.curso.appwebflux.dao.ProductoDao;
+import pe.curso.appwebflux.documents.Producto;
+import reactor.core.publisher.Flux;
+
+@Controller
+public class ProductoController {
+
+	@Autowired
+	private ProductoDao dao;
+	
+	@GetMapping({"/listar","/"})
+	public String listar(Model model) {
+		Flux<Producto> producto=dao.findAll();
+		model.addAttribute("producto",producto);
+		model.addAttribute("titulo","Listado de producto");
+		return "listar";
+	}
+}

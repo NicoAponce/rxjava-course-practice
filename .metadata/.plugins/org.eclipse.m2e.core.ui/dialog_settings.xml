@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/nicolas/DataNico/proyectos/java/lol/ms-service-products"/>
+			<item value="/home/nicolas/DataNico/proyectos/java/sb-service-products"/>
+			<item value="/home/nicolas/DataNico/proyectos/java/sb-service-products-item"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/api-rest-user"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/api-rest-client"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/api-rest-prueba"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/067 spring-boot-webflux-apirest-1-proyecto-base/spring-boot-webflux-apirest"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/app-web-flux"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/app"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/RxJave/spring-boot-reator"/>
+			<item value="/home/nicolas/DataNico/proyectos/eclipse/api-rest-person-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="480"/>
+		<item key="x" value="446"/>
+		<item key="y" value="79"/>
+	</section>
+</section>
